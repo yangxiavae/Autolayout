@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoLinearLayout">
+        <attr name="auto_layout_width">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="3"/>
+            <flag name="padding" value="4"/>
+            <flag name="margin" value="5"/>
+            <flag name="marginLeft" value="6"/>
+            <flag name="marginTop" value="7"/>
+            <flag name="marginRight" value="8"/>
+            <flag name="marginBottom" value="9"/>
+            <flag name="paddingLeft" value="10"/>
+            <flag name="paddingTop" value="11"/>
+            <flag name="paddingRight" value="12"/>
+            <flag name="paddingBottom" value="13"/>
+            <flag name="marginStart">14</flag>
+            <flag name="marginEnd">15</flag>
+            <flag name="paddingStart">16</flag>
+            <flag name="paddingEnd">17</flag>
+        </attr>
+        <attr name="auto_layout_height">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="3"/>
+            <flag name="padding" value="4"/>
+            <flag name="margin" value="5"/>
+            <flag name="marginLeft" value="6"/>
+            <flag name="marginTop" value="7"/>
+            <flag name="marginRight" value="8"/>
+            <flag name="marginBottom" value="9"/>
+            <flag name="paddingLeft" value="10"/>
+            <flag name="paddingTop" value="11"/>
+            <flag name="paddingRight" value="12"/>
+            <flag name="paddingBottom" value="13"/>
+            <flag name="marginStart" value="14"/>
+            <flag name="marginEnd" value="15"/>
+            <flag name="paddingStart" value="16"/>
+            <flag name="paddingEnd" value="17"/>
+            <flag name="minWidth" value="18"/>
+            <flag name="maxWidth" value="19"/>
+            <flag name="minHeight" value="20"/>
+            <flag name="maxHeight" value="21"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

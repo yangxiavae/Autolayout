@@ -6,6 +6,8 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
 public class AutoLinearLayout extends LinearLayout {
+
+
     public AutoLinearLayout(Context context) {
         super(context);
     }
