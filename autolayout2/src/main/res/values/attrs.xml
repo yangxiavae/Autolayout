@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="AutoLinearLayout">
+    <declare-styleable name="Auto_Layout">
         <attr name="auto_layout_width">
             <flag name="width" value="1"/>
             <flag name="height" value="2"/>

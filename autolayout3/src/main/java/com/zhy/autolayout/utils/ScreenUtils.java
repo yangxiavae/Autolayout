@@ -1,4 +1,4 @@
-package com.yang.autolayout2.utils;
+package com.zhy.autolayout.utils;
 
 import android.content.Context;
 import android.content.res.Resources;

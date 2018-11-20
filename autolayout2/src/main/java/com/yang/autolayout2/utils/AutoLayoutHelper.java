@@ -22,6 +22,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.yang.autolayout2.AutoLayoutInfo;
+import com.yang.autolayout2.R;
 import com.yang.autolayout2.conifig.AutoLayoutConfig;
 
 
@@ -104,14 +106,23 @@ public class AutoLayoutHelper {
             View view = mHost.getChildAt(i);
             ViewGroup.LayoutParams params = mHost.getLayoutParams();
             if(params instanceof AutoLayoutParams){
-
+                AutoLayoutInfo autoLayoutInfo=((AutoLayoutParams) params).getAutoLayoutInfo();
+                if(autoLayoutInfo!=null){
+                    autoLayoutInfo.fillAttrs(view);
+                }
             }
 
         }
     }
-    public interface AutoLayoutParams
+    public static AutoLayoutInfo  getAutoLayoutInfo(Context context,AttributeSet attributeSet){
+        AutoLayoutInfo autoLayoutInfo=new AutoLayoutInfo();
+        TypedArray a=context.obtainStyledAttributes(attributeSet, R.styleable.Auto_Layout);
+
+        return autoLayoutInfo;
+    }
+     public interface AutoLayoutParams
     {
-        //AutoLayoutInfo getAutoLayoutInfo();
+        AutoLayoutInfo getAutoLayoutInfo();
     }
 
 }
